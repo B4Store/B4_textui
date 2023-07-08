@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: "bold", sans-serif;
+  margin: 0;
+  padding: 0;
+font-family: '', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+}
+
+.ui-container {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 1rem;
+}
+
+
+
+.data-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 1px 1.2rem;
+  height: 2rem;
+}
+
+.ui-key {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.4rem;
+  font-size: 17px;
+  top: -490%;
+  position: absolute;
+  left: 8%;
+  /* border-right: 2px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4; */
+}
+
+.ui-icon{
+  position: absolute;
+  color: #bd1847;
+  left: 17%;
+  height: 1vh;
+  width: 2vh;
+  top: 430%;
+}
+
+.line{
+  position: absolute;
+  background-color: #1a1918;
+  height: 4px;
+  width: 2.5vh;
+  left: 0.5%;
+  top: -45%;
+  border-radius: 3px;
+}
+
+.box{
+  position: absolute;
+  background-color: #1a1918;
+  height: 2.5vh;
+  width: 2.5vh;
+  left: 10%;
+  top: 1%;
+  border-radius: 7px;
+  border: 2px solid #bd1847;
+
+}
+
+.ui-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 2.1rem;
+  font-size: 18px;
+  font-weight: 400;
+}
